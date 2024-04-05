@@ -1,22 +1,18 @@
 #Tipos de datos 
 
-#Numeros
-entero = 40 #INT
-flotantes = 40.2 #FLOAT
-complejos = 2 + 3j #COMPLEX
+#Defiendo una variable con camelCase
+nombreVillano = "Kylo Ren"
 
-#Cadena de texto
-string = "Julian" 
+#Defiendo una variable con snake_case
+nombre_villano = "Kylo Ren"
 
-#Secuencias
-list = [1,2,"tres",4.0] #Colecciones ordenadas y modificables de elementos
+#concatenar con + 
+bienvenido = "Hola" + "¿Como Estas?"
 
-tuple = [1,2,"tres",4.0] #Colecciones ordenadas e inmutables de elementos
+#concatenar con f-strings
+bienvenido = f"Hola {nombre_villano} ¿Como estas?"
 
-range = range(5) #Representa una secuencia de números y se usa comúnmente en bucles
+#operadoes de pertenencia (in / not in)
 
-
-True
-False #boolean
-
-print(range)
+print("Kylo" in bienvenido) #true
+print("Kylo" not in bienvenido) #false
