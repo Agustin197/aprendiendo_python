@@ -16,7 +16,7 @@ lista[2] = False
 conjunto = {"Lionel Andres","Messi",True,1.79}
 print(conjunto)
 
-#crando un diccionario (dict) - (key : value)
+#creando un diccionario (dict) - (key : value)
 diccionario= {
     "nombre": "Agustin",
     "apellido": "Ceballos",

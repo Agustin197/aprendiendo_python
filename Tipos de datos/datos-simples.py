@@ -1,18 +1,15 @@
 #Tipos de datos 
 
-#Defiendo una variable con camelCase
-nombreVillano = "Kylo Ren"
+# Definición de variables de diferentes tipos de datos primitivos
+edad = 26                   # Entero (int)
+altura = 1.79                # Flotante (float)
+activo = True                # Booleano (bool)
+nombre = "Agustin"              # Cadena de caracteres (str)
 
-#Defiendo una variable con snake_case
-nombre_villano = "Kylo Ren"
+# Impresión de los valores de las variables
+print("Edad:", edad)
+print("Altura:", altura)
+print("Activo:", activo)
+print("Nombre:", nombre)
 
-#concatenar con + 
-bienvenido = "Hola" + "¿Como Estas?"
 
-#concatenar con f-strings
-bienvenido = f"Hola {nombre_villano} ¿Como estas?"
-
-#operadoes de pertenencia (in / not in)
-
-print("Kylo" in bienvenido) #true
-print("Kylo" not in bienvenido) #false

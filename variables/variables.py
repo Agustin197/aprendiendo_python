@@ -2,6 +2,12 @@
 #Definiendo una variables 
 nombre_completo = "kylo ren"
 
+#Defiendo una variable con camelCase
+nombreVillano = "Kylo Ren"
+
+#Defiendo una variable con snake_case
+nombre_villano = "Kylo Ren"
+
 #concatenar con + 
 bienvenida = "Hola" + "¿Como estas?"
 
